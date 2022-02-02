@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda Saludable</title>
+    <link rel="icon" href="./img/logo-tienda-saludable.png" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="hidden">
+    <header>
+      <nav id="nav" class="nav1">
+        <div class="contenedor-nav">
+          <div class="logo">
+            <img src="./img/logo-tienda-saludable.png" alt="logo" />
+          </div>
+          <div class="enlaces" id="enlaces">
+            <a href="#" id="enlace-inicio" class="btn-header">Inicio</a>
+            <a href="#" id="enlace-equipo" class="btn-header">Hábitos</a>
+            <a href="#" id="enlace-servicio" class="btn-header">Beneficios</a>
+            <a href="#" id="enlace-trabajo" class="btn-header">Productos</a>
+            <a href="#" id="enlace-contacto" class="btn-header">Contacto</a>
+          </div>
+          <div class="icono" id="open">
+            <span>&#9776;</span>
+          </div>
+        </div>
+      </nav>
+      <div class="textos">
+        <h1>TIENDA SALUDABLE</h1>
+        <h2>Alimentación consciente</h2>
+      </div>
+    </header>
+    <main>
+      <section class="team contenedor" id="equipo">
+        <h3>¿Estás buscando cambiar de hábitos?</h3>
+        <p class="after">Éste es el lugar indicado para vos.</p>
+        <div class="card">
+          <div class="content-card">
+            <div class="people">
+              <img src="img/alimentacion-diaria.jpg" alt="" />
+            </div>
+            <div class="texto-team">
+              <i class="bx bx-fork"></i>
+              <p>Plan de alimentación diaria.</p>
+            </div>
+          </div>
+          <div class="content-card">
+            <div class="people">
+              <img src="img/alimentacion-anual.jpg" alt="" />
+            </div>
+            <div class="texto-team">
+              <i class="bx bxs-food-menu"></i>
+              <p>Plan de alimentación anual.</p>
+            </div>
+          </div>
+          <div class="content-card">
+            <div class="people">
+              <img src="img/viandas.jpg" alt="" />
+            </div>
+            <div class="texto-team">
+              <i class="bx bxs-bowl-rice"></i>
+              <p>Viandas saludables.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="servicio">
+        <div class="contenedor">
+          <h3>Beneficios</h3>
+          <p class="after beneficios">
+            Te contamos los beneficios de una alimentación saludable.
+          </p>
+          <div class="servicios">
+            <div class="caja-servicios">
+              <img src="./img/heart.png" alt="heart" />
+              <h4>Mejora el corazón</h4>
+            </div>
+            <div class="caja-servicios">
+              <img src="./img/list.png" alt="heart" />
+              <h4>Organización</h4>
+            </div>
+            <div class="caja-servicios">
+              <img src="./img/mindfullness.png" alt="heart" />
+              <h4>Mindfulness</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="work contenedor" id="trabajo">
+        <h3>Nuestros productos</h3>
+        <p class="after">Te presentamos nuestro stock.</p>
+        <div class="botones-work">
+          <ul>
+            <li class="filter active" data-nombre="todos">Todos</li>
+            <li class="filter" data-nombre="diseño">Harinas</li>
+            <li class="filter" data-nombre="programacion">Granolas</li>
+            <li class="filter" data-nombre="marketing">Cereales</li>
+          </ul>
+        </div>
+        <div class="galeria-work">
+          <div class="cont-work programacion">
+            <div class="img-work">
+              <img src="img/granola-clasica.jpg" alt="" />
+              <div class="textos-work">
+                <h4>Granola clásica</h4>
+              </div>
+            </div>
+          </div>
+          <div class="cont-work programacion">
+            <div class="img-work">
+              <img src="img/granola-chocolate.jpg" alt="" />
+              <div class="textos-work">
+                <h4>Granola con chocolate</h4>
+              </div>
+            </div>
+          </div>
+          <div class="cont-work programacion">
+            <div class="img-work">
+              <img src="img/granola-coco.jpg" alt="" />
+              <div class="textos-work">
+                <h4>Granola con escamas de coco</h4>
+              </div>
+            </div>
+          </div>
+          <div class="cont-work diseño">
+            <div class="img-work">
+              <img src="img/harina-trigo.jpg" alt="" />
+              <div class="textos-work">
+                <h4>Harina de trigo</h4>
+              </div>
+            </div>
+          </div>
+          <div class="cont-work diseño">
+            <div class="img-work">
+              <img src="img/harina-avena.jpg" alt="" />
+              <div class="textos-work">
+                <h4>Harina de avena</h4>
+              </div>
+            </div>
+          </div>
+          <div class="cont-work diseño">
+            <div class="img-work">
+              <img src="img/harina-almendras.jpg" alt="" />
+              <div class="textos-work">
+                <h4>Harina de almendras</h4>
+              </div>
+            </div>
+          </div>
+          <div class="cont-work marketing">
+            <div class="img-work">
+              <img src="img/cereales-integrales.jpg" alt="" />
+              <div class="textos-work">
+                <h4>Cereales integrales</h4>
+              </div>
+            </div>
+          </div>
+          <div class="cont-work marketing">
+            <div class="img-work">
+              <img src="img/almohaditas-rellenas.jpg" alt="" />
+              <div class="textos-work">
+                <h4>Almohaditas de trigo rellenas</h4>
+              </div>
+            </div>
+          </div>
+          <div class="cont-work marketing">
+            <div class="img-work">
+              <img src="img/cereales-trigo.jpg" alt="" />
+              <div class="textos-work">
+                <h4>Cereales de trigo</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="contacto">
+      <div class="footer contenedor">
+        <div class="marca-logo">
+          <img src="./img/logo-tienda-saludable.png" alt="logo" />
+        </div>
+        <p class="footer-subtitle">Siguenos en nuestras redes.</p>
+        <div class="iconos">
+          <i class="bx bxl-whatsapp"></i>
+          <i class="bx bxl-instagram"></i>
+          <i class="bx bxl-facebook-square"></i>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/jQuery.js"></script>
+    <script src="js/filtro.js"></script>
+  </body>
+</html>
